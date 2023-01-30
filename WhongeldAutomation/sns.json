@@ -1,0 +1,230 @@
+{
+    "pages": [
+      {
+        "Name": "GoToMiZuErAn",
+        "Actions": [
+          {
+            "action": "nav",
+            "args": [ "https://hh.serviceconnector.osp.dataport.de/HamburgGateway-dev-ci", "" ]
+          },
+          {
+            "action": "cbt",
+            "args": [ "Weitere", "" ]
+          },
+          {
+            "action": "cbt",
+            "args": [ "Weitere", "" ]
+          },
+          {
+            "action": "cbp",
+            "args": [ "//*[@id=\"sc-all-services\"]/ul/li[2]", "" ]
+          },
+          {
+            "action": "cbt",
+            "args": [
+              "Hier starten", "" ]
+          },
+          {
+            "action": "clk",
+            "args": [
+              "DataEditConsent_label", "" ]
+          },
+          {
+            "action": "clk",
+            "args": [ "buttonNext", "" ]
+          },
+          {
+            "action": "clk",
+            "args": [ "ChckBoxListBegin_0__Selected_checkBox_label", "" ]
+          },
+          {
+            "action": "si",
+            "args": [ "AutocompleteZipcode", "22880 Wedel" ]
+          },
+          {
+            "action": "clk",
+            "args": [ "buttonNext", "" ]
+          },
+          {
+            "action": "clk",
+            "args": [ "buttonNext", "" ]
+          },
+          {
+            "action": "clk",
+            "args": [ "SumCardZweck_link", "" ]
+          },
+          {
+            "action": "si",
+            "args": [ "TxtInputZweckDescription", "test" ]
+          },
+          {
+            "action": "clk",
+            "args": [ "Wizard_WizardItem1_nextButton", "" ]
+          },
+          {
+            "action":"clk",
+            "args":["ChckBoxListConstruction_0__Selected_checkBox_label", ""]
+
+          },
+          {
+            "action":"clk",
+            "args":["Wizard_WizardItem2_nextButton", ""]
+          },
+          {
+            "action":"si",
+            "args":["CardSelectionBaugerust_0__TxtGerustLange", "12"]
+          },
+          {
+            "action":"si",
+            "args":["CardSelectionBaugerust_0__TxtGerustBreite", "13"]
+          },
+          {
+            "action": "si",
+            "args": ["CardSelectionBaugerust_0__TxtInputBaugerustGehwegVorhanden", "14"]
+          },
+          {
+            "action": "clk",
+            "args": ["Wizard_WizardItem3_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["ChckBoxList3_0__Selected_checkBox_label", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["Wizard_WizardItemArtFlaeche_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["RdBtnQuestionSameLocation_0__Selected_radioButton_label", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["CardSelectionOrt_0__RDBtnPlaceSpecialUse_0__Selected_radioButton_label", ""]
+          },
+          {
+            "action": "si",
+            "args": ["CardSelectionOrt_0__AcSpecialUseAddress", "AachenMünchener-Platz 1, 52064 Aachen"]
+          },
+          {
+            "action": "si",
+            "args": ["TxtInputPlaceSpecialUseDescription", "aa"]
+          },
+          {
+            "action": "clk",
+            "args": ["Wizard_WizardItemOrt_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["RdBtnListZeitraumSamePeriod_0__Selected_radioButton_label", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["RdBtnListZeitraumLimitedAllyear_1__Selected_radioButton_label", ""]
+          },
+          {
+            "action": "si",
+            "args": ["StartdateWholeYear", "18.02.2023"]
+          },
+          {
+            "action": "clk",
+            "args": ["Wizard_WizardItemZeitraum_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["SumCardContactData_link", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["RadBtnContactDetailsNlp_0__Selected_radioButton_label", ""]
+          },
+          {
+            "action": "si",
+            "args": ["TxtInputContactDataCompanyName", "aa"]
+          },
+          
+          {
+            "action": "si",
+            "args": ["TxtInputContactDataStreet", "aa"]
+          },
+          {
+            "action": "si",
+            "args": ["TxtInputContactDataPostalCode", "11111"]
+          },
+          {
+            "action": "si",
+            "args": ["TxtInputContactDataCity", "aa"]
+          },
+          {
+            "action": "si",
+            "args": ["TxtInputContactDataEmail", "test@mail.com"]
+          },
+          {
+            "action": "si2",
+            "args": ["//*[@id=\"form0\"]/div[2]/div/div/div[2]/span/span/span[2]", ""]
+          },
+           {
+            "action": "si2",
+            "args": ["//*[@id=\"DropdownContactDetailsLegalform_listbox\"]/li[2]", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["WizardContactData_WizardItemContactData_nextButton", ""]
+          },
+          {
+            "action": "si",
+            "args": ["CardSelectionContactPerson_0__TxtInputContactPersonGivenName", "JOHN"]
+          },
+          {
+            "action": "si",
+            "args": ["CardSelectionContactPerson_0__TxtInputContactPersonLastName", "smith"]
+          },
+          {
+            "action": "si",
+            "args": ["CardSelectionContactPerson_0__TxtInputContactPersonFunction", "Any"]
+          },
+          {
+            "action": "si",
+            "args": ["CardSelectionContactPerson_0__TxtInputContactPersonEmail", "test@mail.com"]
+          },
+          {
+            "action": "clk",
+            "args": ["WizardContactData_WizardItemContactPerson_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["WizardContactData_WizardItemFeeNotice_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["RadBtnListAuthorization_0__Selected_radioButton_label", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["WizardContactData_WizardItemAuthorization_nextButton", ""]
+          },
+          {
+            "action": "clk",
+            "args": ["SumCardNachweise_link", ""]
+          },
+          {
+            "action": "up",
+            "args": [
+              "UploadLocationMap",
+              "C:/Users/developer/downloads/Hans-Peter_Buerger_Lastenzuschuss_Erstantrag_20221110(4).pdf"
+            ]
+          },
+          {
+            "action": "clk",
+            "args": ["Wizard_WizardNachweise_nextButton", ""]
+          }
+        ]
+      }
+  
+  
+    ]
+  
+  
+  
+  
+  }
