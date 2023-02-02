@@ -10,6 +10,8 @@
     public class PagesItem
     {
         public string Name { get; set; }
+
+        public bool Enabled { get; set; } = true;
         public List<ActionsItem> Actions { get; set; }
     }
 

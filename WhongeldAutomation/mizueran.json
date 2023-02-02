@@ -1,7 +1,8 @@
 ﻿{
   "pages": [
     {
-      "Name": "GoToMiZuErAn",
+      "Name": "Applicant",
+      "Enabled": true,
       "Actions": [
         {
           "action": "nav",
@@ -66,7 +67,8 @@
       ]
     },
     {
-      "Name": "GoToMiZuErAn",
+      "Name": "Housing",
+      "Enabled": true,
       "Actions": [
         {
           "action": "clk",
@@ -198,7 +200,8 @@
       ]
     },
     {
-      "Name": "Housing",
+      "Name": "HHMember",
+      "Enabled": true,
       "Actions": [
         {
           "action": "clk",
@@ -368,6 +371,7 @@
     },
     {
       "Name": "CompleteApplication",
+      "Enabled": true,
       "Actions": [
         {
           "action": "clk",

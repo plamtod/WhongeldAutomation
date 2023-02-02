@@ -40,9 +40,6 @@
             {
                 commands[item.Action].Invoke(item.Args);
             }
-
-
-
         }
 
         static void SetDD(string id, string value)

@@ -1,7 +1,8 @@
 {
     "pages": [
       {
-        "Name": "GoToMiZuErAn",
+        "Name": "All",
+        "Enabled": true,
         "Actions": [
           {
             "action": "nav",
