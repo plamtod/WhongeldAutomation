@@ -5,193 +5,193 @@
       "Enabled": true,
       "Actions": [
         {
-          "action": "nav",
+          "action": "navigate",
           "args": [ "https://hh.serviceconnector.osp.dataport.de/HamburgGateway-dev-ci", "" ]
         },
         {
-          "action": "cbt",
+          "action": "clickbytext",
           "args": [ "Weitere", "" ]
         },
         {
-          "action": "cbt",
+          "action": "clickbytext",
           "args": [ "Weitere", "" ]
         },
         {
-          "action": "cbp",
+          "action": "clickbypath",
           "args": [ "//*[@id=\"sc-all-services\"]/ul/li[7]", "" ]
         },
         {
-          "action": "cbt",
+          "action": "clickbytext",
           "args": [ "Anmelden", "" ]
         },
         {
-          "action": "cbc",
+          "action": "clickbycss",
           "args": [
-            "input[value='Sign In']",
+            "input[value='setinputgn In']",
             ""
           ]
         },
         {
-          "action": "cbt",
+          "action": "clickbytext",
           "args": [ "Hier starten", "" ]
         },
         {
-          "action": "cbc",
-          "args": [ "input[value='Sign In']", "" ]
+          "action": "clickbycss",
+          "args": [ "input[value='setinputgn In']", "" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "BSPostalCode", "24620, Bönebüttel, Gemeinde Bönebüttel" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "buttonNext", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "DSGVOCheckbox_label", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "buttonNext", "" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "ADAICAReferenceNumber", "Gemeinde Bönebüttel" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "buttonNext", "" ]
         }
 
       ]
     },
     {
-      "Name": "Housing",
+      "Name": "Housetinputng",
       "Enabled": true,
       "Actions": [
         {
-          "action": "clk",
-          "args": [ "SumCardHousingAllowanceRequestApplicant_link", "" ]
+          "action": "click",
+          "args": [ "SumCardHousetinputngAllowanceRequestApplicant_link", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "DropdownListARepresentation", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_WizardItemALRA_nextButton", "01" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "ADABirthPlace", "24620, Bönebüttel, Gemeinde Bönebüttel" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADACivilStatus", "006" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAEmploymentStatus", "001" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADACitizenshipCard_0__ADACitizenship", "998" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_WizardItemApplicantDetails_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADATransferBenefitsQuestionReception", "01" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADATransferBenefitsRequestQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADATransferBenefits_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAIncomeQuestion1", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAIncome_nextButton", "01" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADACCQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAChildCareExpenses_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADADQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADADisability_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAVNSPQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAVictimNSPersecution_nextButton", "01" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAAPQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAAlimonyPayment_nextButton", "01" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAACQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAAlimonyClaim_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAOIQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAOnetimeIncome_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "AHMQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_WizardItemAdditionalHM_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADCQuestionCommitment", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_WizardItemDoC_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "ADAAssetsQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_ADAAssets_nextButton", "" ]
         }
 
@@ -204,135 +204,135 @@
       "Enabled": true,
       "Actions": [
         {
-          "action": "clk",
-          "args": [ "SumCardHousingAllowanceRequestYourApartment_link", "" ]
+          "action": "click",
+          "args": [ "SumCardHousetinputngAllowanceRequestYourApartment_link", "" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "YHAAStreet", "Bönebüttel" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "YHAAPostalCode", "11111" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "YHAACity", "11111" ]
         },
         {
-          "action": "clk",
-          "args": [ "YHAAActualHousing_0__Selected_radioButton_label", "" ]
+          "action": "click",
+          "args": [ "YHAAActualHousetinputng_0__Selected_radioButton_label", "" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingAddress_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngAddress_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHOAQuestion", "01" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_HAOtherApartment_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHPAQuestion", "01" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingSocialContribution_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngSocialContribution_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHDQuestion", "01" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingDecease_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngDecease_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHPHMQuestion", "01" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingProspectiveHM_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngProspectiveHM_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHRQuestion", "01" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingRelocation_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngRelocation_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHTRTenancyQuestion", "004" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHTRRelationshipQuestion", "01" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingTenancyRelationship_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngTenancyRelationship_nextButton", "" ]
         },
         {
-          "action": "sdd",
-          "args": [ "YHASSizeQuestion", "02" ]
+          "action": "setdropdown",
+          "args": [ "YHASsetinputzeQuestion", "02" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingApartmentSize_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngApartmentsetinputze_nextButton", "" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "YHCRent", "12,12" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCHeatingCostsQuestion", "02" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCHotWaterCostsQuestion", "02" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCGarageCostsQuestion", "02" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCCarportCostsQuestion", "02" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCFixedRateQuestion", "02" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCECLandlordQuestion", "02" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHCThirdPartiesQuestion", "02" ]
         },
         {
-          "action": "si",
+          "action": "setinput",
           "args": [ "YHCThirdParties", "12,12" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingCharges_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngCharges_nextButton", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHARAllowanceQuestion", "03" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHARReductionQuestion", "03" ]
         },
         {
@@ -343,28 +343,28 @@
           ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHARReductionQuestion", "03" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "YHARAllowanceQuestion", "03" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_HousingAllowanceReduction_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_HousetinputngAllowanceReduction_nextButton", "" ]
         },
         {
-          "action": "si",
-          "args": [ "YHHCOtherUsageOfHousingSize", "12,12" ]
+          "action": "setinput",
+          "args": [ "YHHCOtherUsageOfHousetinputngsetinputze", "12,12" ]
         },
         {
-          "action": "sdd",
-          "args": [ "YHHCOtherUsageOfHousingRoomyQuestion", "01" ]
+          "action": "setdropdown",
+          "args": [ "YHHCOtherUsageOfHousetinputngRoomyQuestion", "01" ]
         },
         {
-          "action": "clk",
-          "args": [ "Wizard_YHHCOtherUsageOfHousing_nextButton", "" ]
+          "action": "click",
+          "args": [ "Wizard_YHHCOtherUsageOfHousetinputng_nextButton", "" ]
         }
 
       ]
@@ -374,39 +374,39 @@
       "Enabled": true,
       "Actions": [
         {
-          "action": "clk",
-          "args": [ "SumCardHousingAllowanceRequestCompleteApplication_link", "" ]
+          "action": "click",
+          "args": [ "SumCardHousetinputngAllowanceRequestCompleteApplication_link", "" ]
         },
         {
-          "action": "sdd",
+          "action": "setdropdown",
           "args": [ "EAQPRecipientDropdownOne", "001" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "EAQPBankAccountRadioButton_1__Selected_radioButton_label", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_EAQPQuestionsAboutPayment_nextButton", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_EAMessageFromApplicant_nextButton", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "EAImportantInfosConfirmationRead_0__Selected_radioButton_label", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "EAImportantInfosConfirmationAccountInfos_0__Selected_radioButton_label", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "Wizard_EAImportantNotifications_nextButton", "" ]
         },
         {
-          "action": "clk",
+          "action": "click",
           "args": [ "buttonNext", "" ]
         }
 

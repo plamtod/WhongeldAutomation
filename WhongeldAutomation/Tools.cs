@@ -22,15 +22,15 @@
 
         Dictionary<string, Action<Tuple<string, string>>> commands =
               new Dictionary<string, Action<Tuple<string, string>>> {
-                { "nav", t => { Navigate(t.Item1); } },
-                { "cbt", t => { ClickByText(t.Item1); } },
-                { "cbp", t => { ClickByXPath(t.Item1); } },
-                { "cbc", t => { ClickByCssSeclector(t.Item1); } },
-                { "si",  t => { SetInput(t.Item1, t.Item2); } },
-                { "si2",  t => { SetInput2(t.Item1, t.Item2); } },
-                { "clk", t => { Click(t.Item1); } },
-                { "sdd", t => { SetDD(t.Item1, t.Item2); } },
-                { "up", t => { UploadFile(t.Item1, t.Item2); } },
+                { "navigate", t => { Navigate(t.Item1); } },
+                { "clickbytext", t => { ClickByText(t.Item1); } },
+                { "clickbypath", t => { ClickByXPath(t.Item1); } },
+                { "clickbycss", t => { ClickByCssSeclector(t.Item1); } },
+                { "setinput",  t => { SetInput(t.Item1, t.Item2); } },
+                { "setinput2",  t => { SetInput2(t.Item1, t.Item2); } },
+                { "click", t => { Click(t.Item1); } },
+                { "setdropdown", t => { SetDD(t.Item1, t.Item2); } },
+                { "upload", t => { UploadFile(t.Item1, t.Item2); } },
           };
 
         public void Execute(dynamic[] dic)
@@ -103,7 +103,7 @@
         {
             var upload_file = driver.FindElement(By.Id(upload));
 
-            upload_file.SendKeys(file);
+            upload_file.SendKeys(Path.Combine(Environment.CurrentDirectory, file));
             Task.Delay(1500).Wait();
         }
 

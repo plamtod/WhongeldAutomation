@@ -5,218 +5,218 @@
         "Enabled": true,
         "Actions": [
           {
-            "action": "nav",
+            "action": "navigate",
             "args": [ "https://hh.serviceconnector.osp.dataport.de/HamburgGateway-dev-ci", "" ]
           },
           {
-            "action": "cbt",
+            "action": "clickbytext",
             "args": [ "Weitere", "" ]
           },
           {
-            "action": "cbt",
+            "action": "clickbytext",
             "args": [ "Weitere", "" ]
           },
           {
-            "action": "cbp",
+            "action": "clickbypath",
             "args": [ "//*[@id=\"sc-all-services\"]/ul/li[2]", "" ]
           },
           {
-            "action": "cbt",
+            "action": "clickbytext",
             "args": [
               "Hier starten", "" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [
               "DataEditConsent_label", "" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [ "buttonNext", "" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [ "ChckBoxListBegin_0__Selected_checkBox_label", "" ]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": [ "AutocompleteZipcode", "22880 Wedel" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [ "buttonNext", "" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [ "buttonNext", "" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [ "SumCardZweck_link", "" ]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": [ "TxtInputZweckDescription", "test" ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": [ "Wizard_WizardItem1_nextButton", "" ]
           },
           {
-            "action":"clk",
+            "action":"click",
             "args":["ChckBoxListConstruction_0__Selected_checkBox_label", ""]
 
           },
           {
-            "action":"clk",
+            "action":"click",
             "args":["Wizard_WizardItem2_nextButton", ""]
           },
           {
-            "action":"si",
+            "action":"setinput",
             "args":["CardSelectionBaugerust_0__TxtGerustLange", "12"]
           },
           {
-            "action":"si",
+            "action":"setinput",
             "args":["CardSelectionBaugerust_0__TxtGerustBreite", "13"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["CardSelectionBaugerust_0__TxtInputBaugerustGehwegVorhanden", "14"]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["Wizard_WizardItem3_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["ChckBoxList3_0__Selected_checkBox_label", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["Wizard_WizardItemArtFlaeche_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["RdBtnQuestionSameLocation_0__Selected_radioButton_label", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["CardSelectionOrt_0__RDBtnPlaceSpecialUse_0__Selected_radioButton_label", ""]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["CardSelectionOrt_0__AcSpecialUseAddress", "AachenMünchener-Platz 1, 52064 Aachen"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["TxtInputPlaceSpecialUseDescription", "aa"]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["Wizard_WizardItemOrt_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["RdBtnListZeitraumSamePeriod_0__Selected_radioButton_label", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["RdBtnListZeitraumLimitedAllyear_1__Selected_radioButton_label", ""]
           },
           {
-            "action": "si",
-            "args": ["StartdateWholeYear", "18.02.2023"]
+            "action": "setinput",
+            "args": ["StartdateWholeYear", "20.02.2023"]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["Wizard_WizardItemZeitraum_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["SumCardContactData_link", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["RadBtnContactDetailsNlp_0__Selected_radioButton_label", ""]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["TxtInputContactDataCompanyName", "aa"]
           },
           
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["TxtInputContactDataStreet", "aa"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["TxtInputContactDataPostalCode", "11111"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["TxtInputContactDataCity", "aa"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["TxtInputContactDataEmail", "test@mail.com"]
           },
           {
-            "action": "si2",
+            "action": "setinput2",
             "args": ["//*[@id=\"form0\"]/div[2]/div/div/div[2]/span/span/span[2]", ""]
           },
            {
-            "action": "si2",
+            "action": "setinput2",
             "args": ["//*[@id=\"DropdownContactDetailsLegalform_listbox\"]/li[2]", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["WizardContactData_WizardItemContactData_nextButton", ""]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["CardSelectionContactPerson_0__TxtInputContactPersonGivenName", "JOHN"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["CardSelectionContactPerson_0__TxtInputContactPersonLastName", "smith"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["CardSelectionContactPerson_0__TxtInputContactPersonFunction", "Any"]
           },
           {
-            "action": "si",
+            "action": "setinput",
             "args": ["CardSelectionContactPerson_0__TxtInputContactPersonEmail", "test@mail.com"]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["WizardContactData_WizardItemContactPerson_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["WizardContactData_WizardItemFeeNotice_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["RadBtnListAuthorization_0__Selected_radioButton_label", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["WizardContactData_WizardItemAuthorization_nextButton", ""]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["SumCardNachweise_link", ""]
           },
           {
-            "action": "up",
+            "action": "upload",
             "args": [
               "UploadLocationMap",
               "C:/Users/developer/downloads/Hans-Peter_Buerger_Lastenzuschuss_Erstantrag_20221110(4).pdf"
             ]
           },
           {
-            "action": "clk",
+            "action": "click",
             "args": ["Wizard_WizardNachweise_nextButton", ""]
           }
         ]
